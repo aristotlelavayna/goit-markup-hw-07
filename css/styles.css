@@ -430,6 +430,7 @@ h2 {
     display: flex;
     gap: 24px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .team-list {
@@ -730,7 +731,7 @@ h2 {
 }
 /* end of project cards */
 
-/* MEDIA QUERY */
+/* MEDIA QUERY 
 @media screen and (min-width: 428px) {
     .container {
         width: 428px;
@@ -741,7 +742,8 @@ h2 {
     .container {
         width: 768px;
     }
-    .advantages-list {
+    .advantages-list, 
+    .team-list {
         flex-basis: calc(100% / 2 - 30px);
     }
 }
@@ -750,7 +752,8 @@ h2 {
     .container {
         width: 1200px;
     }
-    .advantages-list {
+    .advantages-list
+    .team-list {
         flex-basis: calc(100% / 4 - 30px);
     }
-}
+} */
