@@ -380,7 +380,7 @@ h3 {
     display: flex;
     gap: 24px;
     margin-bottom: 120px;
-    padding: 0px 156px;
+    flex-wrap: wrap;
 }
 
 .advantages-icons {
@@ -426,13 +426,13 @@ h2 {
     height: 780px;
 }
 
-.team-list {
+.team {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
 
-.team-list li {
+.team-list {
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
@@ -731,14 +731,26 @@ h2 {
 /* end of project cards */
 
 /* MEDIA QUERY */
-@media (min-width: 428px) {
-
+@media screen and (min-width: 428px) {
+    .container {
+        width: 428px;
+    }
 }
 
-@media (min-width: 768px) {
-
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .advantages-list {
+        flex-basis: calc(100% / 2 - 30px);
+    }
 }
 
-@media (min-width: 1200px) {
-    
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+    .advantages-list {
+        flex-basis: calc(100% / 4 - 30px);
+    }
 }
