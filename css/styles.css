@@ -731,14 +731,14 @@ h2 {
 }
 /* end of project cards */
 
-/* MEDIA QUERY 
-@media screen and (min-width: 428px) {
+/* MEDIA QUERY */
+@media (min-width: 428px) {
     .container {
         width: 428px;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .container {
         width: 768px;
     }
@@ -748,7 +748,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .container {
         width: 1200px;
     }
@@ -756,4 +756,4 @@ h2 {
     .team-list {
         flex-basis: calc(100% / 4 - 30px);
     }
-} */
+} 
