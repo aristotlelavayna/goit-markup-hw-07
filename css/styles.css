@@ -381,6 +381,8 @@ h3 {
     gap: 24px;
     margin-bottom: 120px;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .advantages-icons {
@@ -430,6 +432,8 @@ h2 {
     gap: 24px;
     justify-content: center;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .team-list {
@@ -757,7 +761,7 @@ h2 {
     .container {
         width: 1200px;
     }
-    .advantages-list
+    .advantages-list,
     .team-list {
         flex-basis: calc(100% / 4 - 30px);
     }
