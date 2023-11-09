@@ -423,7 +423,6 @@ h2 {
 /* team section start */
 .team-section {
     background-color: var(--CLOUD);
-    height: 780px;
 }
 
 .team {
@@ -453,6 +452,10 @@ h2 {
     border-radius: 50%;
     fill: var(--CLOUD);
     display: flex;
+}
+
+.team-list img {
+    width: 100%;
 }
 /* end of team section */
 
