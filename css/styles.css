@@ -456,6 +456,8 @@ h2 {
 
 .team-list img {
     width: 100%;
+    object-fit: cover;
+
 }
 /* end of team section */
 
