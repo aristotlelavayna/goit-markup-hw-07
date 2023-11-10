@@ -460,7 +460,7 @@ h2 {
 
 .team-list img {
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
 
 }
 /* end of team section */
