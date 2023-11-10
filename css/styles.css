@@ -129,7 +129,10 @@ body {
 .hero {
     text-align: center; 
     margin-bottom: 120px;
-    padding: 188px 472px 292px;
+    padding-top: 188px;
+    padding-bottom: 472px; 
+    padding-left: 472px;
+    padding-right: 472px;
     background: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url("../images/people-office\ 1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -533,7 +536,6 @@ h2 {
     display: flex;
     align-items: center;
     gap: 16px;
-    padding-left: 155px;
     padding-top: 16px;
 }
 
@@ -550,7 +552,6 @@ h2 {
 
 .title {
     color: var(--WHITE);
-    padding-left: 155px;
     margin-top: 0px;
     font-family: Roboto;
     font-size: 16px;
@@ -581,7 +582,6 @@ h2 {
     line-height: 24px;
     letter-spacing: 0.32px;
     margin-top: 0px;
-    /*padding-left: 55px;*/
 }
 
 .foot-email {
@@ -599,17 +599,16 @@ h2 {
     line-height: 24px;
     letter-spacing: 0.48px;
     padding: 2px 16px;
+    margin-bottom: 24px;
 }
 
 .foot-form {
-    display: flex;
     gap: 24px;
     padding-top: 16px;
 }
 
 .foot-sub-btn {
     color: var(--WHITE, #FFF);
-    text-align: center;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -620,8 +619,6 @@ h2 {
     background: var(--IRIS, #4D5AE5);
     display: inline-flex;
     padding: 8px 24px;
-    justify-content: center;
-    align-items: center;
     gap: 16px;
     border: none;
 }
