@@ -790,6 +790,12 @@ h2 {
     .advantages-list h3 {
         text-align: center;
     }
+
+    .hero-text {
+        font-size: 36px;
+        letter-spacing: 0.72px;
+        line-height: 40px;
+    }
 }
 
 @media (max-width: 767px) {
