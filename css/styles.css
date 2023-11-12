@@ -116,6 +116,12 @@ li {
     display: flex;
     margin-left: auto;
     gap: 40px;
+    padding-left: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
 }
 /* end of header section */
 
@@ -796,7 +802,8 @@ h2 {
     }
 
     .advantages-icons,
-    .works-section {
+    .works-section,
+    .desktop-nav {
         display: none;
     }
 
