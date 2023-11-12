@@ -113,9 +113,7 @@ li {
 }
 
 .contacts {
-    display: flex;
     margin-left: auto;
-    gap: 40px;
     padding-left: 0;
 }
 
@@ -779,6 +777,10 @@ h2 {
     }
     .customers-list {
         flex-basis: calc(100% / 6 - 30px);
+    }
+    .contacts {
+        display: flex;
+        column-gap: 30px;
     }
 }
 
