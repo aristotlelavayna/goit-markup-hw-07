@@ -121,6 +121,13 @@ li {
     display: flex;
     align-items: center;
 }
+
+.mobile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
 /* end of header section */
 
 /* hero section start */
@@ -758,6 +765,11 @@ h2 {
     .container {
         width: 768px;
     }
+
+    .mobile-nav {
+        display: none;
+    }
+
     .advantages-list, 
     .team-list {
         flex-basis: calc(100% / 2 - 30px);
