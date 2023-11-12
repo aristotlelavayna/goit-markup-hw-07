@@ -23,17 +23,9 @@
     margin-right: auto;
 }
 
-.block {
-    width: 1158px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .d-flex {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo {
@@ -100,7 +92,7 @@ li {
     top: 22px;
 }
 
-.contact-details a {
+.contact-details {
     color: var(--SLATE, #434455);
     text-decoration: none;
     font-family: Roboto;
@@ -111,13 +103,14 @@ li {
     letter-spacing: 0.32px;
 }
 
-.contact-details a:hover,
-.contact-details a:focus {
+.contact-details :hover,
+.contact-details :focus {
     color: var(--OCEAN);
 }
 
-.contact-details {
+.contacts {
     display: flex;
+    margin-left: auto;
     gap: 40px;
 }
 
