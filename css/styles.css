@@ -801,16 +801,13 @@ h2 {
         margin-bottom: 8px;
     }
 
-    .advantages-icons {
+    .advantages-icons,
+    .works-section {
         display: none;
     }
 
     .advantages-list p {
         margin-top: 0px;
-    }
-
-    .works-section {
-        display: none;
     }
 
     .footer-inner {
