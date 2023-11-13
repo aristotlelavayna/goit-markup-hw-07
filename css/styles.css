@@ -128,7 +128,6 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
 }
 
 .mobile-menu-container {
@@ -879,6 +878,17 @@ h2 {
         font-size: 36px;
         letter-spacing: 0.72px;
         line-height: 40px;
+    }
+
+    .filter-list {
+        margin-top: 0;
+        display: block;
+    }
+
+    .card-list {
+        display: flex;
+        padding-left: 0px;
+        justify-content: center;
     }
 }
 
