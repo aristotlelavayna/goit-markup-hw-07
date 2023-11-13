@@ -797,6 +797,10 @@ h2 {
     .customers-list {
         flex-basis: calc(100% / 3 - 30px);
     }
+
+    .works-list {
+        display: grid;
+    }
 }
 
 @media (min-width: 1200px) {
