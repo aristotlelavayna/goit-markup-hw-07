@@ -25,14 +25,14 @@
     margin-left: auto;
     margin-right: auto;
 }
-/* end of general styling section */
 
-/* header section start */
 .d-flex {
     display: flex;
     align-items: center;
 }
+/* end of general styling section */
 
+/* header section start */
 .logo {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
@@ -121,6 +121,7 @@ li {
     display: flex;
     align-items: center;
 }
+/* end of header section */
 
 /* mobile view start */
 .mobile-container {
@@ -168,8 +169,28 @@ li {
     display: none;
     position: relative;
 }
+
+.mobile-tel {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.mobile-email {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
 /* end of mobile view */
-/* end of header section */
 
 /* hero section start */
 .hero {
