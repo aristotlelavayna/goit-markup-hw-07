@@ -190,6 +190,12 @@ li {
     line-height: 24px;
     letter-spacing: 0.4px;
 }
+
+.mobile-social-icons {
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+}
 /* end of mobile view */
 
 /* hero section start */
